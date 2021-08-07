@@ -1,0 +1,577 @@
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .carousel-caption {
+	bottom: 270px;
+  }
+  
+  .carousel-caption h5 {
+	font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+  }
+  
+  .carousel-caption p {
+	width: 75%;
+	margin: unset;
+	font-size: 18px;
+	line-height: 1.9;
+  }
+  
+  .navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color:coral !important;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+	color: #fff;
+  }
+  
+  .navbar-toggler {
+	background: #fff;
+  }
+  
+  .navbar-nav {
+	text-align: center;
+  }
+  
+  .nav-link {
+	padding: .2rem 1rem;
+	color:white !important;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+	color: #fff;
+  }
+  
+  .navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+  }
+  .contactdivi{
+	  background-image: url("images/background3.jpg");
+	  width: 100%;
+	  height: 300px;
+	  font-size: 30px;
+	  font-family: var(--bs-font-sans-serif) !important;
+	  text-align: center;
+  }
+
+  .col-md-6 .foto{
+	  border-radius: 50px;
+	  margin: 74px 0px 70px 70px !important ;
+	  box-shadow: 1px 7px 20px 14px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	  }
+  .col-md-6 .texti{
+	text-align: justify;
+	margin: 10px 0px 20px 5px !important ;
+	padding: 30px !important;
+	margin-top: -100px !important;
+	
+  }
+  .col-md-6 .textke{
+	text-align: justify !important;
+	margin: 10px 0px 40px 5px !important ;
+	padding: 30px !important;
+  }
+  .services{
+	  margin: 60px 0px 60px 0px ;
+	  text-align: center;
+  }
+  .footer-basic {
+	padding:40px 0;
+	background-color:#ffffff;
+	color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+	padding:0;
+	list-style:none;
+	text-align:center;
+	font-size:18px;
+	line-height:1.6;
+	margin-bottom:0;
+  }
+  
+  .footer-basic li {
+	padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+	color:inherit;
+	text-decoration:none;
+	opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+	opacity:1;
+  }
+  
+  .footer-basic .social {
+	text-align:center;
+	padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+	font-size:24px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	display:inline-block;
+	text-align:center;
+	border-radius:50%;
+	border:1px solid #ccc;
+	margin:0 8px;
+	color:inherit;
+	opacity:0.75;
+	color: rgb(93, 189, 189);
+  }
+  
+  .footer-basic .social > a:hover {
+	opacity:0.9;
+	color: coral;
+  }
+  
+  .footer-basic .copyright {
+	margin-top:15px;
+	text-align:center;
+	font-size:13px;
+	color:#aaa;
+	margin-bottom:0;
+  }
+  .btn {
+	border: none;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	color: rgb(255 255 255) !important;
+  }
+  
+  .btn:hover {
+    color: rgb(0 0 0) !important;
+	}
+  /*iletişim formu*/
+	.slider_bastik{
+		font-family: Verdana, sans-serif;
+		font-size: 40px;
+		}
+/*hizmetlerimiz*/
+		.table1{
+			width: 300px;
+			height: 70px;
+			border: 1px solid cadetblue;
+			background: rgba(95, 158, 160, 0.404);
+			border-radius: 5%;
+
+		}
+
+		.tablee {
+			width: 70%;
+			height: 92%;
+			background-color: #1aac9f59;
+			position: absolute;
+			top: 5%;
+			left: 7%;
+			opacity: 0;
+			transition: all 0.3s;
+		}
+		.gallery-item:hover .tablee {
+			opacity: 1;
+		}
+
+		.gallery-item{
+			margin-bottom:50px ;
+		}
+		
+		.hizmetlerimiz{
+			text-align: center;
+			margin-top: 15%;
+			font-size: 20px;
+			 color:white;
+			 text-shadow: 2px 2px 4px #000000;
+			 
+		}
+
+		.baslik{
+			color:white;
+			text-align: center;
+			text-shadow: 2px 2px 4px #000000;
+		}
+		
+		 .hakkimizdafoto{
+			width: 1650px;
+		 }
+		 .referansfoto{
+			height:375px;
+			 width:1650px;
+		}
+		.iletisimfoto{
+		width:1650px;
+		height:375px;
+		}
+		.anasayfacallme{
+			text-align: center;
+			margin-top: 200px;
+			font-weight: bold;
+			color:white;
+			margin-top: 3%;
+		}
+
+		.carousel-inner .h5{
+			font-size: 40px;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+		.süs{
+			margin-top:90px;
+			font-size: 30px;
+			line-height: 1;
+			font-weight: 400;
+			color: #fff;
+			margin-bottom: 15px;
+		}
+		.püs{
+			font-size: 16px;
+			line-height: 1.5;
+			color: #fff;
+		}
+		 .phone{
+			margin-top: 80px;
+		}
+		.slidertext{
+			left:20px;
+			padding: 25px;
+			font-weight: 300;
+    		line-height: 1.1em;
+			color:white;
+			text-align: center;
+			font-size: 30px;
+			
+			
+		}
+		.slidertext2{
+			font-weight: 300;
+    		line-height: 1.1em;
+			color:white;
+			text-align:left;
+			width: auto;
+			height: 130px;
+			margin:5px 5px 5px 5px;
+		}
+		.slidertext2baslik{
+			font-weight: 300px bolder;
+    		line-height: 1.1em;
+			color:coral;
+			text-align:left;
+			width: auto;
+			height: 129px;
+			margin:5px 5px 5px 5px;
+		}
+		
+		.sigortara{
+			font-weight: 600;
+			color: #2c724f;
+		}
+		.btnslider {
+			background-color:coral !important; /* Green */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 25px !important;
+			color:white !important;
+			left: 30px;
+			margin: 0px 800px 19px 0px;
+			width: 300px !important;
+			height: 70px !important;
+		}
+		.aboutuspic{
+			margin: 50px 50px 50px 50px
+		}
+		.nefis{
+			margin: 0px 0px 0px 677px;
+		}
+		.telno{
+			color: white;
+		}
+		.callme{
+			color:white;
+		}
+		.callmemobile{
+			display: none !important;
+		}
+		.ref{
+			padding: 40px !important;
+		}
+		#button {
+			display: inline-block;
+			background-color: #FF9800;
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			border-radius: 4px;
+			margin: 30px;
+			position: fixed;
+			bottom: 30px;
+			right: 30px;
+			transition: background-color .3s;
+			z-index: 1000;
+		  }
+		  #button:hover {
+			cursor: pointer;
+			background-color: #333;
+		  }
+		  #button:active {
+			background-color: #555;
+		  }
+		  #button::after {
+			content: "\f077";
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			font-size: 2em;
+			line-height: 50px;
+			color: #fff;
+		  }
+		  .c1{
+			box-shadow: 0 1px 3px grey;
+			background-color:white;
+			width: 359px;
+			height: 439px;
+			display:inline-block;
+			border-radius:15px 15px 15px 15px;
+		 }
+		 .c2{
+			background-color:white;
+			width: 250px;
+			height: 400px;
+			border-radius:15px;
+			position:absolute;
+			left: 376px;
+			display:inline-block;
+			margin: 0px 0px 0px -347px !important;
+			
+		 }
+		 .username{
+			font-weight: bold;
+			width: 260px;		
+			margin: 0 35px 20px ;
+			height: 35px;
+			padding: 26px 15px;
+			border-radius: 5px;
+			outline: none;
+			border: none;
+			background: #F6F7F9;
+			color: #748194;
+			font-size: 14px;
+		 }
+		 .usernamee{
+			font-weight: bold;
+			width: 260px;		
+			margin: 0 35px 20px ;
+			height: 35px;
+			padding: 26px 15px;
+			border-radius: 5px;
+			outline: none;
+			border: none;
+			background: #F6F7F9;
+			color: #748194;
+			font-size: 14px;
+		 }
+		 .signup{
+			display:initial;
+		 }
+		 
+		.ozelliksu{
+			width: 90px;
+			height: 40px;
+			box-shadow: 0 0 6px #8080800d;
+			font-size:16px !important;
+  			text-align:center !important;
+			  margin: 0px 0px 0px 108px;		}
+	
+  @media only screen and (max-width: 600px) {
+	.carousel {
+		display: none;
+	}
+	.contactdivi{
+		background-image: url("images/background3.jpg");
+		width: 100%;
+		height:  100%;
+		font-size: 30px;
+		font-family: var(--bs-font-sans-serif) !important;
+		text-align: center;
+		margin-top: 25.5%;
+	}
+	.col-md-6 .foto{
+		width:  100%;
+		height: 100%;
+		border-radius: 0px;
+		margin: 0px 0px 0px 0px !important ;
+		box-shadow: 1px 7px 20px 14px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+			}
+	.col-md-6 .texti{
+		text-align: justify;
+		margin: 120px 5px 90px 5px !important ;
+		padding: 0px !important;
+	  }
+	  .col-md-6 .textke{
+		text-align: justify;
+		margin: 74px 5px 100px 5px !important ;
+		padding: 30px !important;
+	  }
+	  .hide{
+		  display:none;
+	  }
+	  /*hakkımızda mobil*/
+	  .hakkimizdafoto{
+		width:  100% !important;
+	  }
+	  .referansfoto{
+		  width: 100%;
+		  height: 100%;
+	  }
+	  .iletisimfoto{
+		width: 100%;
+		height: 100%;
+		}
+		
+		.anasayfacallme{
+			display:none;
+
+		}
+		.col-md-6 .texti{
+			text-align: justify;
+			margin-top: 50px;
+			
+		  }
+		  .col-md-6 .textke{
+			text-align: justify;
+			margin-top: 5%;
+			margin: 10px 20px 10px 20px !important ;
+			padding:70px;
+		  }
+
+	.col-md-6 .textke{
+		text-align: justify;
+		margin: 10px 0px 40px 5px !important ;
+		padding:90px;
+	}
+
+
+	/*
+	.tablee {
+		width: 70%;
+		height: 92%;
+		background-color: #1aac9f59;
+		position: absolute;
+		top: 5%;
+		left: 7%;
+		opacity: 0;
+		transition: all 0.3s;
+	}
+	*/
+
+	.gallery {
+		margin-top: 85px;
+	}
+
+	.tablee {
+		
+		z-index: 2;
+		position: absolute;
+		display: contents;
+	}
+
+	.tablee .baslik {
+		position: absolute;
+		margin: -357px 0px 5px -30px;
+		font-size: 20px;
+	}
+
+	.tablee .hizmetlerimiz {
+		position: absolute;
+		margin: -320px 0px 0px -30px;
+		font-size: 15px;
+		width: 320px;
+		text-align: justify;
+		background-color: #0000003d;
+	}
+
+	.gallery-item img {
+		width: 380px;
+		margin: 0px 0px 0px -60px;
+	}
+
+	.gallery-item:hover .tablee {
+		opacity: 1;
+	}
+
+	
+	.hizmetlerimiz{
+		text-align: center;
+		margin-top: 15%;
+		font-size: 20px;
+		color:white;
+		text-shadow: 2px 2px 4px #000000;
+	}
+
+	.baslik{
+		color:white;
+		text-align: center;
+		text-shadow: 2px 2px 4px #000000;
+	}
+	.nefis{
+		margin: 0px 0px 0px 166px;
+	}
+	.süs{
+		display: none;
+	}
+	.püs{
+		display: none;
+	}
+	.telno{
+		image-orientation: inherit;
+	}
+	.phone{
+		margin-right: 500px;
+	}
+	.callme{
+		display: none !important;	
+		
+	}
+	.callmemobile{
+		/*sadece mobilde bizi arayın kısmı*/
+	background-image: url("images/background3.jpg")!important;
+	  width: 100% !important;
+	  height: 300px !important;
+	  font-size: 30px !important;
+	  font-family: var(--bs-font-sans-serif) !important;
+	  text-align: center !important;
+	}
+	
+
+}
+	
+  
